@@ -1,3 +1,4 @@
+// link no playground https://pl.kotl.in/CUfm2vHSh
 enum class Nivel { BASICO, INTERMEDIARIO, AVANCADO }
 
 class Usuario(val nome: String, val login: String, var formacaoMatriculada: Formacao? = null, val matricula: Int, val nivel: Nivel)

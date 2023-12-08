@@ -7,12 +7,9 @@ data class ConteudoEducacional(val nome: String, val duracao: Int)
 
 data class Formacao(val nome: String, val conteudos: List<ConteudoEducacional>, val inscritos: MutableList<Usuario> = mutableListOf()) {
 
-    var qtdInscritos: Int = 0
-
     fun matricular(usuario: Usuario) {
         inscritos.add(usuario)
         usuario.formacaoMatriculada = this
-        qtdInscritos++
     }
 }
 

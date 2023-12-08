@@ -1,4 +1,4 @@
-// link no playground https://pl.kotl.in/CUfm2vHSh
+// link no playground https://pl.kotl.in/gfjngXnqf
 enum class Nivel { BASICO, INTERMEDIARIO, AVANCADO }
 
 class Usuario(val nome: String, val login: String, var formacaoMatriculada: Formacao? = null, val matricula: Int, val nivel: Nivel)
@@ -50,8 +50,8 @@ fun main() {
     println("Os inscritos na formação Ciencia de Dados são ${iniciante.inscritos.map { it.nome }}")
 	println("Os inscritos na formação Kotlin são ${kotlin.inscritos.map { it.nome }}")
     println("Os inscritos na formação Ciencia de Dados são ${dados.inscritos.map { it.nome }}")
-    println("A quantidade de alunos inscritos na formação Iniciante ${iniciante.inscritos.size}}")
-    println("A quantidade de alunos inscritos na formação Kotlin ${kotlin.inscritos.size}}")
-    println("A quantidade de alunos inscritos na formação Dados ${dados.inscritos.size}}")
+    println("A quantidade de alunos inscritos na formação iniciante ${iniciante.inscritos.size}")
+    println("A quantidade de alunos inscritos na formação Kotlin ${kotlin.inscritos.size}")
+    println("A quantidade de alunos inscritos na formação Dados ${dados.inscritos.size}")
     
 }

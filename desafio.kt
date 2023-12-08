@@ -52,5 +52,8 @@ fun main() {
     println("Os inscritos na formação Ciencia de Dados são ${iniciante.inscritos.map { it.nome }}")
 	println("Os inscritos na formação Kotlin são ${kotlin.inscritos.map { it.nome }}")
     println("Os inscritos na formação Ciencia de Dados são ${dados.inscritos.map { it.nome }}")
+    println("A quantidade de alunos inscritos na formação Iniciante ${iniciante.inscritos.size}}")
+    println("A quantidade de alunos inscritos na formação Kotlin ${kotlin.inscritos.size}}")
+    println("A quantidade de alunos inscritos na formação Dados ${dados.inscritos.size}}")
     
 }
